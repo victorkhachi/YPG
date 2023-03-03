@@ -23,12 +23,13 @@ export default function Landing() {
             </div>
         </div>
         <div className="banner">
-             <img src={Img2} alt="" />
              <div className="write-up">
                 <h2>Lorem, ipsum dolor. Lorem ipsum dolor sit amet.</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, odio!, Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse alias voluptatibus delectus. Adipisci voluptate fuga iure necessitatibus illo sequi ex!</p>
                    <button>Get Started</button>
              </div>
+             <img src={Img2} alt="" />
+            
              <div className="statistics">
                   <div><h1>20k+</h1>  lorem</div>
                   <div> <h1>20k+</h1> ipsum</div>

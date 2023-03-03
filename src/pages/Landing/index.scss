@@ -383,8 +383,337 @@ font-family: Inter;
     text-align: center;
     color: #F1F0FF;
     padding: 12px 0;
+    font-size: 8px;
     a{
         color: #F1F0FF;
         text-decoration: none;
     }
+   }
+
+   @media screen and (max-width:500px) {
+    .landing{
+        padding: 1em 2em;
+    }
+     .head{
+        .logo{
+            width: 45px !important;
+        }
+        .links{
+            display: none !important;
+        }
+     }
+
+     .banner{
+        height: unset !important;
+        margin-top: 0 !important;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 60px !important;
+        .write-up{
+            padding: 0 !important;
+
+       button{
+        margin: auto;
+       }
+            h2{
+                color: #10008B;
+                width: 100% !important;
+                font-size: 32px !important;
+                height: unset !important;
+                text-align: center !important;
+            }
+            position:  relative !important;
+            color: black !important;
+
+            p{
+                width: 100% !important;
+                text-align: center !important;
+            }
+        }
+        img{
+            height: 300px !important;
+        }
+        .statistics{
+            position: relative !important;
+            width: 100% !important;
+
+            >div{
+                font-family: InterL;
+                    font-size: 12px !important;
+                    font-weight: 400;
+                    line-height: 12px !important;
+                    letter-spacing: -0.05em;
+                    // padding: 12px ;
+                    // box-sizing: border-box;
+            h1 {
+                    font-family: Inter;   
+                    font-size: 24px !important;
+                    font-weight: 600;
+                    line-height: 24px !important;
+                    letter-spacing: -0.05em;
+                    text-align: left;
+            
+                    margin: 0;
+                }
+            }
+        }
+     }
+         #services {
+             display: flex;
+            flex-direction: column;
+             gap: 24px !important;
+             align-items: center;
+    
+             .img {
+                 width: 100% !important;
+                 border-radius: 32px;
+                 overflow: hidden;
+                 height: 100%;
+    
+                 img {
+                     width: 100%;
+                     height: 100%;
+                 }
+             }
+    
+             .write-up {
+                 width: 100%;
+                 text-align: left;
+                 display: flex;
+                 flex-direction: column;
+                 gap: 12px;
+    
+                 >h2 {
+                     font-family: Inter;
+                     font-size: 24px;
+                     font-weight: 700;
+                     line-height: 24px;
+                     letter-spacing: -0.05em;
+                     text-align: center;
+                 }
+    
+                 .serv {
+                     display: flex;
+    
+    
+                     .note {
+                         font-family: InterL;
+                         font-size: 14px;
+                         font-weight: 400;
+                         line-height: 21px;
+                         letter-spacing: -0.02em;
+                         text-align: left;
+    
+                         h2 {
+                             font-family: Inter;
+                             font-size: 24px;
+                             font-weight: 600;
+                             line-height: 24px;
+                             letter-spacing: -0.05em;
+                             text-align: left;
+                         }
+                     }
+    
+                     gap: 12px;
+    
+                     >div {
+                         display: flex;
+                         gap: 12px;
+                         flex-direction: column;
+                     }
+                 }
+    
+                 * {
+                     margin: 0;
+                 }
+    
+    
+             }
+         }
+                 #about {
+                     display: flex;
+                     margin-top: 60px;
+                     flex-direction: column;
+                     gap: 64px;
+                     background-color: #10008B;
+                     padding: 24px;
+                     box-sizing: border-box;
+                     justify-content: center;
+                     border-radius: 32px;
+                     align-items: center;
+                     height: 600px;
+        
+                     .img {
+                         width: 100%;
+                         border-radius: 32px;
+                         overflow: hidden;
+                         height: 100%;
+        
+                         img {
+                             width: 100%;
+                             height: 100%;
+                         }
+        
+                     }
+        
+                     .write-up {
+                         width: 100%;
+                         color: #FFFFFF;
+                         text-align: left;
+                         display: flex;
+                         flex-direction: column;
+                         gap: 24px;
+                         text-align: center;
+                         font-family: InterL;
+                         font-size: 14px;
+                         font-weight: 400;
+                         line-height: 21px;
+                         letter-spacing: -0.02em;
+                         // text-align: left;
+        
+                         h1 {
+        
+                             font-family: Inter;
+                             font-size: 24px;
+                             font-weight: 700;
+                             line-height: 36px;
+                             letter-spacing: -0.05em;
+                             // text-align: left;
+                         }
+        
+        
+                         * {
+                             margin: 0;
+                         }
+        
+        
+                     }
+                 }
+                                 .work {
+                                     display: flex;
+                                     gap: 14px;
+                                     margin-top: 24px;
+                                     justify-content: center;
+                                     flex-direction: column;
+                                     align-items: center;
+                
+                                     .img {
+                                         width: 100%;
+                                         border-radius: 32px;
+                                         overflow: hidden;
+                                         height: 400px;
+                
+                                         img {
+                                             width: 100%;
+                                             height: 100%;
+                                         }
+                                     }
+                
+                                     .write {
+                                         width: 100%;
+                                         font-family: InterL;
+                                         font-size: 14px;
+                                         font-weight: 400;
+                                         line-height: 21px;
+                                         letter-spacing: -0.02em;
+                                         font-style: italic;
+                                     }
+                                 }
+        #contact {
+                                                                     margin-top: 48px;
+                                                                     background-color: #10008B;
+                                                                     padding: 24px;
+                                                                     color: #FFFFFF;
+                                                                     border-radius: 32px;
+                                
+                                                                     * {
+                                                                         margin: 0;
+                                                                     }
+                                
+                                                                     >div {
+                                                                         display: flex;
+                                                                         justify-content: space-between;
+                                                                         padding: 0;
+                                                                         width: 100%;
+                                                                         box-sizing: border-box;
+                                                                         flex-direction: column;
+                                
+                                                                         .con {
+                                                                             display: flex;
+                                                                             align-items: center;
+                                                                             justify-content: space-between;
+                                                                             gap: 12px;
+                                                                             font-family: InterL;
+                                                                             font-size: 14px;
+                                                                             font-weight: 400;
+                                                                             line-height: 21px;
+                                                                             letter-spacing: -0.02em;
+                                                                             text-align: left;
+                                                                             text-transform: capitalize;
+                                
+                                                                             h2 {
+                                                                                 font-family: Inter;
+                                                                                 font-size: 20px;
+                                                                                 font-weight: 600;
+                                                                                 line-height: 24px;
+                                                                                 letter-spacing: -0.05em;
+                                                                                 text-align: left;
+                                                                             }
+                                                                         }
+                                                                     }
+                                
+                                                                     >h2 {
+                                                                         font-family: Inter;
+                                                                         font-size: 24px;
+                                                                         font-weight: 600;
+                                                                         line-height: 24px;
+                                                                         letter-spacing: -0.05em;
+                                                                         text-align: center;
+                                                                     }
+                           }
+                                                   .footer {
+                                                       background-color: #F1F0FF;
+                                                       border-radius: 32px;
+                                                       display: flex;
+                                                       flex-direction: column;
+                                                       padding: 14px;
+                                                       margin-top: 24px;
+                                                       justify-content: center;
+                                                       align-items: center;
+                        
+                                                       h2 {
+                                                           font-family: Inter;
+                                                           font-size: 36px;
+                                                           font-weight: 700;
+                                                           line-height: 36px;
+                                                           letter-spacing: -0.05em;
+                                                           text-align: left;
+                                                           color: #10008B;
+                                                           width: 100%;
+                                                           text-align: center;
+                        
+                                                       }
+                        
+                                                       form {
+                                                           display: flex;
+                                                           flex-direction: column;
+                                                           width: 100%;
+                                                           gap: 24px;
+                        
+                                                           input,
+                                                           textarea {
+                                                               background: none;
+                                                               outline: none;
+                                                               border: none;
+                                                               padding: 8px;
+                                                               border-bottom: 1px solid black;
+                                                           }
+                        
+                                                           button {
+                                                               width: fit-content;
+                                                               margin: auto;
+                                                           }
+                                                       }
+                                                   }
    }
