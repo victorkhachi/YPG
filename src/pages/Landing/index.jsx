@@ -6,6 +6,7 @@ import Img2 from '../../asset/banner2.jpeg'
 import W1 from '../../asset/w1.jpeg'
 import W2 from '../../asset/w2.jpeg'
 import W3 from '../../asset/w3.jpeg'
+import {FaFacebook, FaInstagram} from 'react-icons/fa'
 import {PopupModal} from 'react-calendly'
 
 export default function Landing() {
@@ -56,7 +57,7 @@ export default function Landing() {
                   <div className="con">
                       <a href="https://instagram.com/yourenergyguy?igshid=YmMyMTA2M2Y=">
                           <h1>
-                              Instagram
+                            <FaInstagram/>  Instagram
                           </h1>
                       </a>
 
@@ -64,7 +65,7 @@ export default function Landing() {
                   <div className="con">
                       <a href="https://www.facebook.com/yourenergyguy1?mibextid=LQQJ4d">
                           <h1>
-                              Facebook
+                            <FaFacebook/>  Facebook
                           </h1>
                       </a>
 
@@ -178,34 +179,43 @@ export default function Landing() {
 
         <div id="about">
             <div className="img">
-                <img src={W1} alt="" />
+                <img src={W2} alt="" />
             </div>
             <div className="write-up">
                
                 <h1>
-                      Set a consultation and quotation meeting with us today
+                     About Us
                 </h1>
+                <p>
+                      We are a neighborhood, community and environmental friendly service that helps home owners go solar, we’ve installed in a 100+ home in over 5 states like Maryland, DC, Virginia, Houston Texas, Arizona, New Jersey and more
+   </p>
+                    <p>  We are a growing company that intends on serving your community and neighborhood to keep it green with a hands on approach like no other
+                      Own your power and turn your energy into cash flowing assets. Zero money down
+             </p>
             </div>
         </div>
 
-          <div className="work">
+          {/* <div className="work">
               <div className="img">
-                  <img src={W2} alt="" />
-              </div>
+                  <img src={W1} alt="" />
+              </div> */}
               {/* <div className="write">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam error nostrum, similique ipsa officia, ducimus architecto eos, quod mollitia sequi cumque fugiat labore iste repudiandae nihil quia odio corporis est.
               </div> */}
-          </div> 
-          <div className="work">
+          {/* </div> 
+          <div className="work"> */}
              
               {/* <div className="write">
                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure delectus vero veritatis similique quas officiis fuga praesentium, soluta dolorem. Cupiditate non aliquid voluptatem eos nulla id necessitatibus exercitationem facilis quas Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam error nostrum, similique ipsa officia, ducimus architecto eos, quod mollitia sequi cumque fugiat labore iste repudiandae nihil quia odio corporis est.
               </div> */}
-               <div className="img">
+               {/* <div className="img">
                   <img src={W3} alt="" />
               </div>
-          </div>
-
+          </div> */}
+{/* <div className="blog">
+            <h1>Blog</h1>
+            <a href=""></a>
+        </div> */}
           <div id="contact">
             <h2>Contact Us</h2>
             <div>
@@ -221,7 +231,7 @@ export default function Landing() {
                       <p>gosolar@yourenergyguy.com</p>
               </div> </div>
           </div>
-
+        
           <div className="footer">
             <h2>Leave us a message</h2>
             <form action="">
