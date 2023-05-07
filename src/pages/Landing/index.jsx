@@ -21,7 +21,7 @@ export default function Landing() {
             show &&<Pop click={()=>setShow(false)}/>
           }
           <PopupModal 
-              url="https://calendly.com/victorkhachi"
+              url="https://calendly.com/thecollectives2022/"
               /*
                * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
                * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
@@ -60,7 +60,7 @@ export default function Landing() {
                             <FaInstagram/>  Instagram
                           </h1>
                       </a>
-
+                     
                   </div> 
                   <div className="con">
                       <a href="https://www.facebook.com/yourenergyguy1?mibextid=LQQJ4d">
