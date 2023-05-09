@@ -46,8 +46,8 @@ export default function Landing() {
         </div>
         <div className="banner">
              <div className="write-up">
-                <h2>Get cheaper energy with zero down payment</h2>
-                  <p> free consultation and Quotation</p>
+                  <h2>Schedule free quotation with us and get our promo services </h2>
+                  <p> own your power and turn your energy into cash flowing assets. Zero money downn</p>
                   <button onClick={() => setOpen(true)}>Schedule an appointment</button>
              </div>
              <img src={Img2} alt="" />
@@ -195,27 +195,29 @@ export default function Landing() {
             </div>
         </div>
 
-          {/* <div className="work">
+       <div className="work">
               <div className="img">
                   <img src={W1} alt="" />
-              </div> */}
-              {/* <div className="write">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam error nostrum, similique ipsa officia, ducimus architecto eos, quod mollitia sequi cumque fugiat labore iste repudiandae nihil quia odio corporis est.
-              </div> */}
-          {/* </div> 
-          <div className="work"> */}
+              </div> 
+           <div className="write">
+                  <h3>“YourEnergyGuy” – The Solar Energy Solutions Expert!</h3>
+                  Industry: Entertainment
+
+                  ~As the world shifts focus to more sustainable and renewable energy “YourEnergyGuy” (Augustus Ajaonu), puts the focus on Solar and the benefits that accompany it!
+
+
+              </div>
+       </div> 
+          {/* <div className="work"> 
              
-              {/* <div className="write">
+              <div className="write">
                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure delectus vero veritatis similique quas officiis fuga praesentium, soluta dolorem. Cupiditate non aliquid voluptatem eos nulla id necessitatibus exercitationem facilis quas Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam error nostrum, similique ipsa officia, ducimus architecto eos, quod mollitia sequi cumque fugiat labore iste repudiandae nihil quia odio corporis est.
-              </div> */}
-               {/* <div className="img">
+              </div>
+           <div className="img">
                   <img src={W3} alt="" />
               </div>
-          </div> */}
-{/* <div className="blog">
-            <h1>Blog</h1>
-            <a href=""></a>
-        </div> */}
+          </div>  */}
+
           <div id="contact">
             <h2>Contact Us</h2>
             <div>
