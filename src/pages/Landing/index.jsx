@@ -79,7 +79,7 @@ export default function Landing() {
             </div>
             <div className="write-up">
                 <h2>
-                    YourEnergyGuy Services
+                      Solar Advantage
                 </h2>
                   <div className="serv">
                       <div className="icon">
@@ -91,7 +91,7 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2>Installation</h2>
+                          <h2>County incentives: you get cash incentives from your county ranging from ($2,000 to $5,000)</h2>
                           
                       </div>
                   </div> <div className="serv">
@@ -104,7 +104,7 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2>Free Quotation and Consultation.</h2>
+                          <h2>State incentives: you get cash incentives from depending on your state .</h2>
                           
                       </div>
                   </div> <div className="serv">
@@ -117,7 +117,7 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2>Cheaper energy bills  </h2>
+                          <h2>Federal incentives: you get paid 30% of your system worth depending back as cash from the federal government  </h2>
 
                       </div>
                   </div>
@@ -131,7 +131,7 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2>Zero down payment to get started</h2>
+                          <h2>Sell excess energy: you get paid from the power companies by selling back unused energy</h2>
 
                       </div>
                   </div><div className="serv">
@@ -144,7 +144,7 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2>Maintains and reinstallation </h2>
+                          <h2>Real estate benefits: It becomes a income bringing asset and increases the value of your property </h2>
 
                       </div>
                   </div><div className="serv">
@@ -157,10 +157,11 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2>Help you maximize the Government incentives available  </h2>
+                          <h2>Roof protection: solar panels protect your roof from wear and tear while increasing the lifespan of your roof.  </h2>
                           
                       </div>
-                  </div><div className="serv">
+                  </div>
+                  <div className="serv">
                       <div className="icon">
                           <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M22 12.6667L16.4 18.2667L14.2667 15.0667L10 19.3334" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -170,8 +171,50 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2> Sell your excess energy to the power grid </h2>
-                          
+                          <h2> Free 10 year warranty on roof protection </h2>
+
+                      </div>
+                  </div> 
+                  <div className="serv">
+                      <div className="icon">
+                          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M22 12.6667L16.4 18.2667L14.2667 15.0667L10 19.3334" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M19.333 12.6667H21.9997V15.3334" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M12.0003 29.3334H20.0003C26.667 29.3334 29.3337 26.6667 29.3337 20.0001V12.0001C29.3337 5.33341 26.667 2.66675 20.0003 2.66675H12.0003C5.33366 2.66675 2.66699 5.33341 2.66699 12.0001V20.0001C2.66699 26.6667 5.33366 29.3334 12.0003 29.3334Z" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+
+                      </div>
+                      <div className="note">
+                          <h2> 10 year warranty on labor   </h2>
+
+                      </div>
+                  </div> 
+                  <div className="serv">
+                      <div className="icon">
+                          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M22 12.6667L16.4 18.2667L14.2667 15.0667L10 19.3334" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M19.333 12.6667H21.9997V15.3334" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M12.0003 29.3334H20.0003C26.667 29.3334 29.3337 26.6667 29.3337 20.0001V12.0001C29.3337 5.33341 26.667 2.66675 20.0003 2.66675H12.0003C5.33366 2.66675 2.66699 5.33341 2.66699 12.0001V20.0001C2.66699 26.6667 5.33366 29.3334 12.0003 29.3334Z" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+
+                      </div>
+                      <div className="note">
+                          <h2> 25 years system warranty   </h2>
+                         
+                      </div>
+                  </div>
+                   <div className="serv">
+                      <div className="icon">
+                          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M22 12.6667L16.4 18.2667L14.2667 15.0667L10 19.3334" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M19.333 12.6667H21.9997V15.3334" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M12.0003 29.3334H20.0003C26.667 29.3334 29.3337 26.6667 29.3337 20.0001V12.0001C29.3337 5.33341 26.667 2.66675 20.0003 2.66675H12.0003C5.33366 2.66675 2.66699 5.33341 2.66699 12.0001V20.0001C2.66699 26.6667 5.33366 29.3334 12.0003 29.3334Z" stroke="#10008B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+
+                      </div>
+                      <div className="note">
+                        
+                          <h2> 30 year performance warranty </h2>
                       </div>
                   </div>
             </div>
