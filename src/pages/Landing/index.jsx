@@ -46,7 +46,7 @@ export default function Landing() {
         </div>
         <div className="banner">
              <div className="write-up">
-                  <h2>Schedule free quotation with us and get our promo services </h2>
+                  <h2>Schedule free consultation with us and get our promo services </h2>
                   <p> own your power and turn your energy into cash flowing assets. Zero money downn</p>
                   <button onClick={() => setOpen(true)}>Schedule an appointment</button>
              </div>
@@ -117,7 +117,7 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2>Federal incentives: you get paid 30% of your system worth depending back as cash from the federal government  </h2>
+                          <h2>Federal incentives: you get paid 30% on the system cost from the federal government  </h2>
 
                       </div>
                   </div>
@@ -144,7 +144,7 @@ export default function Landing() {
 
                       </div>
                       <div className="note">
-                          <h2>Real estate benefits: It becomes a income bringing asset and increases the value of your property </h2>
+                          <h2>Real estate benefits:just as every other home improvement, solar increases the value of your property </h2>
 
                       </div>
                   </div><div className="serv">
