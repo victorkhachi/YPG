@@ -65,7 +65,7 @@ const Faq = (props) => {
           ))}
         </div>
         </section>
-        <section style={{margin:'auto',width:'80%'}} className="blog_p">
+        <section  className="blog_p">
         <h3 style={{textAlign:'center',marginBottom:'12px'}}>   Understanding how Solar Power Works</h3>
          
             <p className="cat">

@@ -60,7 +60,8 @@ import { FaFacebook, FaInstagram } from 'react-icons/fa'
             <div className="img">
               <img src={pic2} alt="" />
             </div>
-      </div>    <div style={{width:'70%',margin:'auto'}} className="blog_p">
+      </div>  
+        <div  className="blog_p">
             <h3 >  The Costs of Solar Power Systems for your Home</h3>
               ‍
 
