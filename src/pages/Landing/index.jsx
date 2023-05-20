@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import Logo from './yeg.png'
+import React, { useEffect, useRef, useState } from 'react'
 import './index.scss'
 import Img from '../../asset/banner1.jpeg'
 import Img2 from '../../asset/banner2.jpeg'
@@ -9,8 +8,8 @@ import W3 from '../../asset/w3.jpeg'
 import {FaFacebook, FaInstagram} from 'react-icons/fa'
 import {PopupModal} from 'react-calendly'
 
-export default function Landing() {
-    const [open, setOpen] = useState(false)
+export default function Landing(props) {
+   
     const [show, setShow] = useState(false)
  
 //  console.log(PopupWidget);
@@ -20,35 +19,13 @@ export default function Landing() {
           {
             show &&<Pop click={()=>setShow(false)}/>
           }
-          <PopupModal 
-              url="https://calendly.com/thecollectives2022/"
-              /*
-               * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-               * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-               */
-              rootElement={document.getElementById("root")}
-              text="Click here to schedule!"
-              textColor="#ffffff"
-              color="#00a2ff"
-          open={open}
-          onModalClose={()=>setOpen(false)}
-          />
-        <div className="head">
-            <div className="logo">
-                <img src={Logo} alt="" />
-            </div>
-            <div className="links">
-                  <a href="#about">About Us</a>
-                  <a href="#contact">Contact Us</a>
-                  <a href="#services">Our Services</a>
-                  <button onClick={() => setOpen(true)}>Book an Appointment</button>
-            </div>
-        </div>
+        
+      
         <div className="banner">
              <div className="write-up">
                   <h2>Schedule free consultation with us and get our promo services </h2>
                   <p> own your power and turn your energy into cash flowing assets. Zero money downn</p>
-                  <button onClick={() => setOpen(true)}>Schedule an appointment</button>
+                  <button onClick={() => props.open(true)}>Schedule an appointment</button>
              </div>
              <img src={Img2} alt="" />
             
@@ -261,45 +238,31 @@ export default function Landing() {
               </div>
           </div>  */}
 
-          <div id="contact">
-            <h2>Contact Us</h2>
-            <div>
-              <div className="con">
-                  <h2>
-                      Tel
-                  </h2>
-                      <p>+1 (240) 681-9255</p>
-              </div> <div className="con">
-                  <h2>
-                     Email
-                  </h2>
-                      <p>gosolar@yourenergyguy.com</p>
-              </div> </div>
-          </div>
+       
         
-          <div className="footer">
-            <h2>Leave us a message</h2>
-            <form action="">
-                  <input type="text" placeholder='Full Name'/>
-                  <input type="tel" placeholder='Phone Number' />
-                  <textarea name="" id="" cols="30" rows="10" placeholder='message'></textarea>
-                  <button>Send</button>
-            </form>
-          </div>
-          <div className="builder">This Site was built by <a href="www.linkedin.com/in/onyedikachi-obi">Onyedikachi Obi</a></div>
-    </div>
+            </div>
   )
 }
 
 const Pop=({click})=>{
+    const [data,setData]=useState({
+        name:'',
+        phone:''
+    })
+
+   const link= useRef()
     return(
         <div onClick={click} className='pop'>
 
             <form onClick={(e)=>e.stopPropagation()} action="">
                 <h2>Let's Keep you updated</h2>
-                <input placeholder='Name' />
-                <input placeholder='Phone Number'/>
-                <button>Send</button>
+                <input name='name' placeholder='Name' onChange={(e)=>setData({...data,[e.target.name]:e.target.value})} />
+                <input name='phone' type='tel' placeholder='Phone Number' onChange={(e) => setData({ ...data, [e.target.name]: e.target.value })} />
+                <button onClick={(e)=>{
+                    e.preventDefault()
+                    if(data.phone && data.name)link.current.click()
+                }}>Send</button>
+                <a ref={link} href={`mailto:gosolar@yourenergyguy.com?subject=Subscription&body=name:${data.name}  phone:${data.phone}`}></a>
             </form>
         </div>
     )

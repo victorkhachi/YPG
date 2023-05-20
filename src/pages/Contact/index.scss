@@ -1,0 +1,59 @@
+.blog_p{
+    width: 50%;
+    h3{
+        font-family: Inter;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 36px;
+            letter-spacing: -0.05em;
+            text-align: left;
+            margin-bottom: 8px;
+    }
+
+    p{
+       
+        
+            font-family: InterL;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            margin-top: 0;
+    }
+}
+
+@font-face {
+    font-family: InterL;
+    src: url(../../asset/Inter-Light.ttf);
+}
+
+@media screen and (max-width:700px) {
+    .blog_p {
+            width: 100%;
+    
+            h3 {
+                font-family: Inter;
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 30px;
+                letter-spacing: -0.05em;
+                text-align: center;
+                margin-bottom: 8px;
+            }
+    br{
+        margin: 12px;
+    }
+            p {
+    
+    
+                font-family: InterL;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                margin-top: 0;
+            }
+        }
+}
